@@ -11,7 +11,7 @@ function App() {
     const data = await res.json()
 
     setLoadMore(data.next)
-    //console.log("data : ",data)
+    console.log("data : ",data)
 
     function createPokemonObject (results){
       results.forEach( async pokemon => {
@@ -24,7 +24,7 @@ function App() {
 
     }
     createPokemonObject(data.results)
-    await console.log(allPokemons);
+     console.log(allPokemons);
 
   }
 

@@ -64,7 +64,7 @@ code {
 }
 .thumb-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0 ;
